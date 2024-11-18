@@ -1,0 +1,163 @@
+/* CSS untuk landing page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+  background-color: #235cd8;
+  color: white;
+}
+
+header h1 {
+  color: rgb(251, 255, 0); /* Mengubah warna teks menjadi kuning */
+  font-size: 2.5em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+/* Style untuk tombol CTA */
+.cta-button {
+  background-color: #ffd000;
+  color: rgb(3, 0, 0);
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+#images img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+#hook {
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+#hook h2 {
+  font-size: 2em;
+  color: #235cd8;
+}
+
+#promo .promo {
+  background-color: #e76f51;
+  color: white;
+  padding: 15px;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+/* Animasi untuk tombol panah */
+.arrow-button {
+  text-align: center;
+  margin-bottom: 20px; /* Jarak antara panah dan CTA */
+  animation: move-arrow 1s infinite;
+}
+
+.arrow-button i {
+  font-size: 2em;
+  color: #ffd000; /* Warna kuning untuk panah */
+  animation: bounce 1s infinite; /* Animasi panah bergerak */
+}
+
+/* CSS untuk tombol panah dengan animasi */
+.arrow-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Jarak antar panah */
+  margin-top: 20px;
+}
+
+.arrow-button {
+  text-align: center;
+}
+
+.arrow-button i {
+  font-size: 2em;
+  color: #ffd000; /* Warna kuning untuk panah */
+  animation: bounce 1s infinite, move-arrow 1s ease-in-out infinite; /* Animasi panah bergerak */
+}
+
+/* Animasi untuk panah yang bergerak naik turun */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px); /* Gerakan panah ke atas */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Animasi untuk pergerakan panah ke bawah */
+@keyframes move-arrow {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px); /* Gerakan panah ke bawah */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Variasi animasi untuk tiap panah agar tidak semuanya bergerak serentak */
+.arrow-button:nth-child(1) i {
+  animation-delay: 0.10s;
+}
+
+.arrow-button:nth-child(2) i {
+  animation-delay: 0.10s; /* Delay 0.2 detik */
+}
+
+.arrow-button:nth-child(3) i {
+  animation-delay: 0.10s; /* Delay 0.4 detik */
+}
+
+
+
+.cta-consultation {
+  background-color: #fffb00; /* Warna kuning */
+  color: rgb(10, 1, 1);
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #478CCF;
+  color: white;
+  margin-top: 40px;
+}
