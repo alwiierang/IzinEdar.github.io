@@ -42,7 +42,7 @@ header p {
 .center-text {
   text-align: center;
   font-size: 1.5em;
-  margin: 65px 0;
+  margin: 50px 0;
   color: #235cd8;
 }
 
@@ -51,7 +51,7 @@ header p {
   justify-content: center;
   flex-wrap: wrap;
   gap: 15px;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 .table {
