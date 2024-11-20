@@ -40,6 +40,46 @@ header p {
 }
 
 
+.center-text {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 20px 0;
+  color: #235cd8;
+}
+
+.risk-tables {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px auto;
+}
+
+.table {
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  color: white;
+}
+
+.blue1 {
+  background-color: #1E90FF; /* DodgerBlue */
+}
+
+.blue2 {
+  background-color: #4682B4; /* SteelBlue */
+}
+
+.blue3 {
+  background-color: #5F9EA0; /* CadetBlue */
+}
+
+.blue4 {
+  background-color: #6495ED; /* CornflowerBlue */
+}
+
+
 #images img {
   max-width: 100%;
   height: auto;
@@ -161,3 +201,4 @@ footer {
   color: white;
   margin-top: 40px;
 }
+
