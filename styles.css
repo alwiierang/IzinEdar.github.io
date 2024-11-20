@@ -39,6 +39,32 @@ header p {
   margin-top: 10px;
 }
 
+/* Style untuk section dengan id "images" */
+#images {
+  display: flex; /* Membuat gambar berada di tengah */
+  justify-content: center; /* Menyelaraskan gambar secara horizontal */
+  align-items: center; /* Menyelaraskan gambar secara vertikal */
+  margin: 20px 0; /* Memberi margin di atas dan bawah */
+  background-color: #f9f9f9; /* Memberi latar belakang untuk area gambar */
+  padding: 20px; /* Memberi jarak antara konten dan tepi */
+  border: 2px solid #ddd; /* Menambahkan garis tepi */
+  border-radius: 10px; /* Membuat sudut tepi melengkung */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan efek bayangan */
+}
+
+/* Style untuk gambar di dalam section */
+#images img {
+  max-width: 100%; /* Membuat gambar responsif */
+  height: auto; /* Menjaga proporsi gambar */
+  border-radius: 8px; /* Membuat sudut gambar melengkung */
+  transition: transform 0.3s ease-in-out; /* Animasi saat hover */
+}
+
+/* Efek hover pada gambar */
+#images img:hover {
+  transform: scale(1.05); /* Memperbesar gambar sedikit saat hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Menambah bayangan saat hover */
+}
 
 .center-text {
   text-align: center;
